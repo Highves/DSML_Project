@@ -33,4 +33,4 @@ For the example, the sample data should be stored in the working directory so co
                 
     5	Run the script
 
-    6	Information on the gene contained within the GenBank record and the BLAST result will be displayed in the terminal window. Additionally, results from the BLAST alignment     will be written to “blast_result.xml” and stored in the current working directory.
+Information from the gene extracted from the GenBank record and the BLAST result will be displayed in the terminal window. Additionally, results from the BLAST alignment will be written to “blast_result.xml” and stored in the current working directory.
