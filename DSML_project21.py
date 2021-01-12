@@ -89,7 +89,7 @@ from Bio.SeqRecord import SeqRecord
 
 # The Path module allows Python to read data inside text files as a string. The module Seq is needed to convert a string to a Seq object. The SeqRecord module allows Seq object to be stored to a SeqRecord object.
 
-with open("OneDrive - Cardiff University/Desktop/MEP3Bassembly.fasta") as infile, open("output.txt", 'w') as outfile:
+with open("MEP3Bassembly.fasta") as infile, open("output.txt", 'w') as outfile:
     for line in infile:
         if line.startswith(">"): continue
         outfile.write(line.strip())
