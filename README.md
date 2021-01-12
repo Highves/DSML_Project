@@ -15,22 +15,22 @@ Additionally, the gene sequence extracted from the GenBank record, and associate
 
 To run:
 
-    1	Download the script to your working directory.
+    1 Download the script to your working directory.
 
 For sample data download “MEP3Bassembly.fasta” to your working directory.
                 
-    2	Choose any GenBank file and use its accession number and the Entrez module to download the file from GenBank.
+    2 Choose any GenBank file and use its accession number and the Entrez module to download the file from GenBank.
 
 The cci was first characterized in B. cenocepacia J2315 and its accession number (AM747721) has been used for the example.
                 
-    3	Choose a gene from your organism and insert the name into the script.
+    3 Choose a gene from your organism and insert the name into the script.
 
 For the example, the gene esmR is used which is assigned to the variable “gene_of_interest”. 
 
-    4	Choose your sequencing file and copy its file path.
+    4 Choose your sequencing file and copy its file path.
 
 For the example, the sample data should be stored in the working directory so copying the file path will not be necessary.
                 
-    5	Run the script
+    5 Run the script
 
 Information from the gene extracted from the GenBank record and the BLAST result will be displayed in the terminal window. Additionally, results from the BLAST alignment will be written to “blast_result.xml” and stored in the current working directory.
