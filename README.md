@@ -14,7 +14,7 @@ The script can be adapted to extract and align any annotated gene from a GenBank
 Additionally, the gene sequence extracted from the GenBank record, and associated data such as name, description, protein sequence etc., are stored in a FASTA file in the working directory and can be used for further analysis.
 
 To run:
-1	Download the script to your working directory.
+1	Download the script to your working directory.\n
                 For sample data download “MEP3Bassembly.fasta” to your working directory.
 2	Choose any GenBank file and use its accession number and the Entrez module to download the file from GenBank. 
                 The cci was first characterized in B. cenocepacia J2315 and its accession number (AM747721) has been used for the example.
